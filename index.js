@@ -37,5 +37,6 @@ http
     res.end(graph(machine))
   })
   .listen(1234, () => {
+    console.log('http://localhost:1234')
     open('http://localhost:1234')
   })
