@@ -2,5 +2,10 @@
   "name": "nanostate-graphviz",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nanostate": "^1.2.1",
+    "opn": "^5.2.0",
+    "viz.js": "^1.8.0"
+  }
 }
